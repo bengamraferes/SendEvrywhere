@@ -5,7 +5,7 @@ le programme consiste à envoyer des messages partout sur slack , mail , twiteer
 
 1-Création d'une API facebook.
 2-Création d'une API twiteer.
-3-Création d'un URl incoming-webhooks slack.
+3-Création d'un URL incoming-webhooks slack.
 4-Autoriser dans le parametre du mail les applications moin sécurisée.
 
 **Partie cilent**
