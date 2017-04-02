@@ -1,0 +1,128 @@
+<html>
+<head>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.0.js"></script>
+  <link rel="stylesheet" href="style.css">
+<script src="app.js" type="text/javascript"></script>
+     
+
+
+    
+    
+    
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Send everywhere</title>
+         <script src="https://code.jquery.com/jquery-3.2.0.js"></script>
+          <link rel="stylesheet" href="style.css">
+          <script src="app.js" type="text/javascript"></script>
+     
+        
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+    </head>
+    <body class="bag">
+        
+        <div class="form-group" id="divMain">
+
+            <h1>Formulaire d'envoie d'un message sur Mail , Twiteer , facebook et Slack  </h1>
+            <br><form>
+            
+                <div class="form-group">
+                    <div class="col-sm-10">
+                         <label for="email">Email address:</label>
+                        <input type="email" name="mail" id="mail" class="form-control" placeholder="Votre adresse mail"/>
+                    </div>
+                </div><br>
+                <div class="form-group">
+                    <div class="col-sm-10">
+                         <label for="pwd">Password:</label>
+                        <input type="password" name="password" id="password" class="form-control" placeholder="Votre mot de passe"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-10">
+                         <label for="text">Objet:</label>
+                        <input type="text" name="objet" id="objet" class="form-control" placeholder="L'objet du message"/>
+                    </div>
+                </div>
+            <div class="form-group">
+                    <div class="col-sm-10">
+                         <label for="email">Distinataire:</label>
+                        <input type="email" name="destination" id="destination" class="form-control" placeholder="Adresse mail du destinataire"/>
+                        
+            </div>
+            </div>    
+           
+            
+           
+         <div class="form-group">
+                    <div class="col-sm-10">
+                         <label for="text"> consumer_key:</label>
+                        <input type="text" name=" consumerKey" id=" consumerKey" class="form-control" placeholder="Taper votre consumer Key Tweteer"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-10">
+                         <label for="text">consumer_secret:</label>
+                        <input type="text" name="consumerSecret" id="consumerSecret" class="form-control" placeholder="Taper votre consumer secret Tweteer"/>
+                    </div>
+                </div>
+               <div class="form-group">
+                    <div class="col-sm-10">
+                         <label for="text"> access_token_key:</label>
+                        <input type="text" name=" accessTokenKey" id=" accessTokenKey" class="form-control" placeholder="Taper votre  access token key Tweteer"/>
+                    </div>
+                </div>
+                 
+                         <div class="form-group">
+                    <div class="col-sm-10">
+                         <label for="text">access_token_secret:</label>
+                        <input type="text" name="accessTokenSecret" id="accessTokenSecret" class="form-control" placeholder="Taper votre access token secret tweteer"/>
+                    </div>
+            </div>
+                       <div class="form-group">
+                        <div class="col-sm-10">
+                         <label for="text">URL WebHook :</label>
+                        <input type="text" name="slack"  id="slack" class="form-control" placeholder="Taper votre URl WebHook Slack"/>
+                    </div>
+                </div>
+                         <div class="form-group">
+                        <div class="col-sm-10">
+                         <label for="text">Access Token :</label>
+                        <input type="text" name="access_Token"  id="access_Token" class="form-control" placeholder="Taper votre Access Token Facebook"/>
+                    </div>
+                </div>
+                          <div class="form-group">
+                        <div class="col-sm-10">
+                         <label for="text">ID Facebook:</label>
+                        <input type="text" name="ID"  id="ID" class="form-control" placeholder="Taper votre Identifient Facebook"/>
+                    </div>
+                </div>
+                          <div class="form-group">
+                        <div class="col-sm-10">
+                         <label for="text">Nom API Facebook:</label>
+                        <input type="text" name="NomF"  id="NomF" class="form-control" placeholder="Taper votre NOM de API Facebook"/>
+                    </div>
+                </div>
+                    
+                    
+                    <div class="form-group">
+                    <div class="col-sm-10">
+                        <textarea rows="11" name="message" id="message" class="form-control" placeholder="Le contenu de votre message"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-10">
+                        <button type="submit" id= "submit" class="btn btn-primary">Envoyer</button>
+                    </div>
+            </div>
+            </form>
+        </div>
+    </body>    
+    
+    </html>
